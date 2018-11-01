@@ -11,9 +11,6 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "database"
-        ],
         "psr-4": {
             "Julfiker\\Swagger\\": "src/"
         }
