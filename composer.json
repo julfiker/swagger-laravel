@@ -1,0 +1,22 @@
+{
+    "name": "julfiker/swagger",
+    "description": "Api document using swagger",
+    "require": {
+        "zircote/swagger-php": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Julfiker",
+            "email": "mail.julfiker@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Julfiker\\Swagger\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
