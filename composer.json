@@ -1,5 +1,5 @@
 {
-    "name": "julfiker/swagger",
+    "name": "julfiker/swagger-laravel",
     "description": "Api document using swagger",
     "require": {
         "zircote/swagger-php": "^3.0"
