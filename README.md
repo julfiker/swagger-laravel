@@ -38,7 +38,7 @@ Add annotations to your php files. You must need to use ```@OA\Info()``` only on
 For further study on annotation to use - http://zircote.com/swagger-php/Getting-started.html#annotation-placement
 
 __Access swagger documents:__  
-``` {{url}}/swagger/doc ```
+``` http://{project-url}/swagger/doc ```
 
 
 **Any Help?**  
