@@ -42,7 +42,7 @@ __Access swagger documents:__
 
 
 **Any Help?**  
-You can contact me if you need anything on this regards, My contacts inforamtion ~  
+You can contact me if you need anything on this regards, My contacts information ~  
 _email:_ `mail.julfiker@gmail.com`   
 _skype:_ `eng.jewel`   
   
