@@ -39,7 +39,7 @@ __Access swagger documents:__
 
 **Any Help?**  
 You can contact me if you need anything on this regards, My contaction inforamtion ~  
-_Email:_ `mail.julfiker@gmail.com`   
-_Skype:_ `eng.jewel`   
+_email:_ `mail.julfiker@gmail.com`   
+_skype:_ `eng.jewel`   
   
 Enjoy!!! :smile:
