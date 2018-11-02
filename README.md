@@ -1,5 +1,5 @@
 # swagger api documentation for laravel 
-Api documentation based on swagger in Laravel framework. It would serve run time environment with the ui based on swagger ui latest released. You can test and documenting about the every each action and request object along with each properties you can explain.  Just annotation based. you can manage everything as you needs.
+Api documentation based on swagger for Laravel framework. It would serve run time environment with the ui based on swagger ui latest released. You can test and documenting about the every each action and request object along with each properties you can explain.  Just annotation based very simple. You can manage everything as you needs.
 
 _Note: - only for laravel framework. It would competitable with any lts version of laravel._
 
@@ -13,7 +13,7 @@ Just run composer require command with package name. This assumes you have compo
 
 
 __Usage instruction by annotation:__  
-Add annotations to your php files. You must need to use ```@OA\Info()``` only one time in any php files under the app directly. I can recomment to home or welcome page controller that it would render your application home page. Then add each controller action in the appi controller class.  
+Add annotations to your php files. You must need to use ```@OA\Info()``` only one time in any php files under the app directly. I can recomment to home or welcome page controller that it would render your application home page. Then add each controller action in the api controller class.  
 
 ```
 /**
@@ -42,7 +42,7 @@ __Access swagger documents:__
 
 
 **Any Help?**  
-You can contact me if you need anything on this regards, My contaction inforamtion ~  
+You can contact me if you need anything on this regards, My contacts inforamtion ~  
 _email:_ `mail.julfiker@gmail.com`   
 _skype:_ `eng.jewel`   
   
