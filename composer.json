@@ -1,7 +1,8 @@
 {
     "name": "julfiker/swagger-laravel",
-    "description": "Api document using swagger",
+    "description": "Api document based on swagger",
     "require": {
+       "php": ">=5.5.9",
         "zircote/swagger-php": "^3.0"
     },
     "authors": [
@@ -15,5 +16,12 @@
             "Julfiker\\Swagger\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan vendor:publish",
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ]
+    }
 }
