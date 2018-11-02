@@ -8,12 +8,12 @@ _Note: - only for laravel framework. It would competitable with any lts version 
 ``` composer require julfiker/swagger-laravel ```  
 Just run composer require command with package name. This assumes you have composer installed and available in your path as composer. Instruction to have composer https://getcomposer.org/doc/00-intro.md.  
 
+**Post install: run the command to publish assets from vendor**  
+```php artisan vendor:publish```  
+
 
 __Usage instruction by annotation:__  
 Add annotations to your php files. You must need to use ```@OA\Info()``` only one time in any php files under the app directly. I can recomment to home or welcome page controller that it would render your application home page. Then add each controller action in the appi controller class.  
-
-**Post install: run the command to publish assets from vendor**  
-```php artisan vendor:publish```  
 
 ```
 /**
