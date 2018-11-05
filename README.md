@@ -8,10 +8,10 @@ _Note: - only for laravel framework. It would competitable with any lts version 
 ``` composer require julfiker/swagger-laravel ```  
 Just run composer require command with package name. This assumes you have composer installed and available in your path as composer. Instruction to have composer https://getcomposer.org/doc/00-intro.md.  
 
-**Post install: run the command to publish assets from vendor**  
+**Post install**  
 Configure the service into the applicaton, Please add following into the config/app.php under the providers
 ```Julfiker\Swagger\SwaggerServiceProvider::class```  
-Then  
+Then run following command
 ```php artisan vendor:publish```  
 Thats it!!!
 
