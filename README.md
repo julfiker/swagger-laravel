@@ -9,9 +9,9 @@ _Note: - only for laravel framework. It would competitable with any lts version 
 Just run composer require command with package name. This assumes you have composer installed and available in your path as composer. Instruction to have composer https://getcomposer.org/doc/00-intro.md.  
 
 **Post install**  
-Configure the service into the applicaton, Please add following into the config/app.php under the providers
-```Julfiker\Swagger\SwaggerServiceProvider::class```  
-Then run following command
+Configure the service into the applicaton, Please add following into the config/app.php under the providers  
+```Julfiker\Swagger\SwaggerServiceProvider::class```    
+Then run following command  
 ```php artisan vendor:publish```  
 Thats it!!!
 
