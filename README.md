@@ -9,8 +9,11 @@ _Note: - only for laravel framework. It would competitable with any lts version 
 Just run composer require command with package name. This assumes you have composer installed and available in your path as composer. Instruction to have composer https://getcomposer.org/doc/00-intro.md.  
 
 **Post install: run the command to publish assets from vendor**  
+Configure the service into the applicaton, Please add following into the config/app.php under the providers
+```Julfiker\Swagger\SwaggerServiceProvider::class```  
+Then  
 ```php artisan vendor:publish```  
-
+Thats it!!!
 
 __Usage instruction by annotation:__  
 Add annotations to your php files. You must need to use ```@OA\Info()``` only one time in any php files under the app directly. I can recomment to home or welcome page controller that it would render your application home page. Then add each controller action in the api controller class.  
